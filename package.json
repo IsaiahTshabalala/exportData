@@ -9,6 +9,7 @@
   "author": "Isaiah Tshabalala",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "firestore-export-import": "^1.4.0",
     "request-promise": "^4.2.6"
   }

@@ -6,3 +6,5 @@ node_modules
 
 #Ignore service account file.
 house-market-place-10d04-cfa7d53c4b32.json
+
+test.js
