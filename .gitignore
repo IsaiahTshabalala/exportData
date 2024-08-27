@@ -5,6 +5,8 @@
 node_modules
 
 #Ignore service account file.
-house-market-place-10d04-cfa7d53c4b32.json
+house-market-place-1cf11-firebase-adminsdk-bk19s-991cac5568.json
 
 test.js
+
+temp

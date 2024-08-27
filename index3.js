@@ -5,7 +5,7 @@
  * Hierachy: province/local-or-metro-municipality/main-place/sub-place.
  * 
  * Date         Dev  Version  Description
- * 2024/01/20   ITA  1.00     Dump the provinces3.json file to Firestore.
+ * 2024/01/20   ITA  1.00     The beginning.
  * 2024/07/11   ITA  1.01     Install and use dotenv to access the environment variables.
  * 2024/07/12   ITA  1.02     Add env variable LOCAL and option as to whether to export to the local emulator or Firestore.
 */
@@ -33,7 +33,7 @@ if (options === null)
 else
     firestore = initializeFirebaseApp(serviceAccount, appName, options);
 
-restore(firestore, './provinces3.json')
+restore(firestore, './data/firestoreImport.json')
     .then(result=> {
         console.log('Successfully loaded provinces data.');
         console.log(result);
