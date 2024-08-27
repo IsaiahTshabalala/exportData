@@ -8,6 +8,7 @@
  * 2024/01/20   ITA  1.00     The beginning.
  * 2024/07/11   ITA  1.01     Install and use dotenv to access the environment variables.
  * 2024/07/12   ITA  1.02     Add env variable LOCAL and option as to whether to export to the local emulator or Firestore.
+ * 2024/08/27   ITA  1.03     The dump file changed to ./data/firestoreImport.json
 */
 const { initializeFirebaseApp, restore } = require('firestore-export-import');
 require('dotenv').config();
